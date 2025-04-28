@@ -8,6 +8,9 @@ import BookImg from '../../assets/Book.png';
 import HangmanImg from '../../assets/Hangman.png';
 import TodoImg from '../../assets/Todo.png';
 import MovieImg from '../../assets/MovieImg.png';
+import WeatherImg from '../../assets/weather.jpg';
+import VideoCalling from '../../assets/vdeocalling.jpeg';
+
 
 interface Project { 
   id: number;
@@ -26,7 +29,7 @@ const projects: Project[] = [
     description: "A digital library platform built in React, Javascript, Redux and axios for api handling. Feature includes product catalog, cart functionality, user authentication, and tracking.",
     image: BookImg,
     tags: ["ReactJS", "Javascript", "MongoDB", "Authentication", "Axios", "Redux", "Tailwind CSS", "React Router DOM"],
-    github: "#",
+    github: "http://localhost:3000/urls/elTpGPZjL",
     demo: "#"
   },
   {
@@ -35,25 +38,43 @@ const projects: Project[] = [
     description: "A application that helps users to search various movies and see the information about movie. Built with React and Javascript.",
     image: MovieImg,
     tags: ["React", "Axios",  "Router DOM", "FontAwesome", "React Icons", "HTML5", "CSS3", "Tailwind CSS"],
-    github: "#",
+    github: "http://localhost:3000/urls/jozAU6hLl",
     demo: "#"
   },
   {
     id: 3,
-    title: "Todo App",
+    title: "Video Calling APp",
     description: "Developed React To-Do application, showcasing proficiency with dynamic content manipulation.",
-    image: TodoImg,
-    tags: ["React", "Javascript", "Redux", "HTML5", "CSS3", "React DOM"],
-    github: "#",
+    image: VideoCalling,
+    tags: ["React", "Typescript", "Next.js", "WebRTC", "peerjs", "socket.io", "tailwindcss", "daisyui"],
+    github: "http://localhost:3000/urls/2WSXUWYeq",
     demo: "#"
   },
   {
     id: 4,
+    title: "Todo App",
+    description: "Developed React To-Do application, showcasing proficiency with dynamic content manipulation.",
+    image: TodoImg,
+    tags: ["React", "Javascript", "Redux", "HTML5", "CSS3", "React DOM"],
+    github: "http://localhost:3000/urls/2WSXUWYeq",
+    demo: "#"
+  },
+  {
+    id: 5,
     title: "Hangman Game",
     description: "A game application where user can interact with computer and can check the vocabulary or increase their vocab.",
     image: HangmanImg,
     tags: ["React", "Javascript", "Post CSS", "React DOM", "tailwind CSS"],
-    github: "#",
+    github: "https://github.com/sangleb/hangman-game",
+    demo: "#"
+  },
+  {
+    id: 6,
+    title: "Weather App",
+    description: "Automatically detects location using the Geolocation API and displays real-time weather data using Axios.",
+    image: WeatherImg,
+    tags: ["React", "TypeScript", "react-redux", "react-dom", "tailwindCSS", "react-icons"],
+    github: "https://github.com/sangleb/Weather_App",
     demo: "#"
   },
   

@@ -18,7 +18,7 @@ const skills: Skill[] = [
       { name: "React", level: 90 },
       { name: "TypeScript", level: 85 },
       { name: "HTML/CSS", level: 95 },
-      { name: "Next.js", level: 80 },
+      { name: "Javascript", level: 90 },
       { name: "Tailwind CSS", level: 95 },
     ]
   },
@@ -28,6 +28,7 @@ const skills: Skill[] = [
       { name: "Node.js", level: 80 },
       { name: "Express", level: 70 },
       { name: "MongoDB", level: 80 },
+      { name: "Next.js", level: 80 }
     ]
   },
   {

@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import Section from '../Section';
 import RevealOnScroll from '../RevealOnScroll';
-import myPhoto from '../../assets/photo.jpg'; // Adjust the path based on your project structure
+import Photo from '../../assets/Photo.jpg';
+
 
 export default function About() {
   return (
@@ -23,9 +24,8 @@ export default function About() {
                 >
                   <div
                     className="w-full h-full bg-cover bg-center"
-                    style={{ backgroundImage: `url(${myPhoto})` }}
+                    style={{ backgroundImage: `url(${Photo})` }}
                   >
-                    {/* This is a placeholder. You can replace with your actual image */}
                   </div>
                 </motion.div>
               </div>
