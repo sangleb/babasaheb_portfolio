@@ -44,10 +44,9 @@ export default function About() {
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Results-driven Frontend Developer/UI Developer with 3 years of experience in delivering high-quality web applications.
-                Proficient in various technologies and frameworks, with a strong focus on sectors such as finance and networking. Successfully
-                completed multiple projects for diverse clients, enhancing application performance and user experience. Committed to staying
-                updated with industry trends and best practices
+                Results-driven Frontend/Web Developer with 3 years of experience, skilled in delivering high-quality web applications and components within tight timelines. 
+                Proficient in frontend technologies with a strong understanding of backend principles, having collaborated with backend teams. 
+                Proven expertise in optimizing code for performance, ensuring client satisfaction. Additionally, experienced in enhancing web responsiveness and accessibility to create seamless user experiences.
               </p>
               <p> 
                 My approach combines technical excellence with creative problem-solving. I believe 
