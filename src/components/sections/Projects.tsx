@@ -85,7 +85,7 @@ const projects: Project[] = [
     image: WeatherImg,
     tags: ["React", "TypeScript", "react-redux", "react-dom", "tailwindCSS", "react-icons"],
     github: "https://github.com/sangleb/Weather_App",
-    demo: "#"
+    demo: "https://weather-app-nu-lilac-11.vercel.app/"
   },
   
 ];
