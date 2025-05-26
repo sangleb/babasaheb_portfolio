@@ -15,7 +15,8 @@ const skills: Skill[] = [
   {
     category: "Frontend",
     items: [
-      { name: "React", level: 90 },
+      { name: "ReactJS", level: 90 },
+      { name: "React Native", level: 85 },
       { name: "TypeScript", level: 85 },
       { name: "HTML/CSS", level: 95 },
       { name: "Javascript", level: 90 },
@@ -117,3 +118,22 @@ export default function Skills() {
     </Section>
   );
 }
+
+
+/**
+ * <div className="mt-16 text-center">
+        <RevealOnScroll>
+          <button 
+            onClick={() => {
+              const projectsSection = document.getElementById('projects');
+              if (projectsSection) {
+                projectsSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }} 
+            className="btn-primary inline-flex items-center"
+          >
+            View All Projects
+          </button>
+        </RevealOnScroll>
+      </div>
+ */

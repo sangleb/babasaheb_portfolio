@@ -10,6 +10,7 @@ import TodoImg from '../../assets/Todo.png';
 import MovieImg from '../../assets/MovieImg.png';
 import WeatherImg from '../../assets/weather.jpg';
 import VideoCalling from '../../assets/vdeocalling.jpeg';
+import ShortenUrlImg from '../../assets/ShortenUrlImg.jpg'
 
 
 interface Project { 
@@ -34,15 +35,24 @@ const projects: Project[] = [
   },
   {
     id: 2,
+    title: "URL Shorty",
+    description: "A modern URL shortening application built with Next.js that allows users to generate concise, shareable links from long URLs. The app leverages MongoDB Atlas for scalable, cloud-based data storage.",
+    image: ShortenUrlImg,
+    tags: ["React", "Next.js",  "Typescript", "MongoDB-Atlas", "Mongoose", "shortid", "react-dom", "Tailwind CSS"],
+    github: "https://github.com/sangleb/url-shorty-next",
+    demo: "https://url-shorty-next.vercel.app/"
+  },
+  {
+    id: 3,
     title: "Movie Search App",
-    description: "A application that helps users to search various movies and see the information about movie. Built with React and Javascript.",
+    description: "A React.js application that enables users to search and explore detailed information about a wide range of movies. The app integrates with a movie API to fetch movie titles, descriptions, ratings, and more.",
     image: MovieImg,
     tags: ["React", "Axios",  "Router DOM", "FontAwesome", "React Icons", "HTML5", "CSS3", "Tailwind CSS"],
     github: "http://localhost:3000/urls/jozAU6hLl",
     demo: "#"
   },
   {
-    id: 3,
+    id: 4,
     title: "Video Calling APp",
     description: "Developed React To-Do application, showcasing proficiency with dynamic content manipulation.",
     image: VideoCalling,
@@ -51,7 +61,7 @@ const projects: Project[] = [
     demo: "#"
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo App",
     description: "Developed React To-Do application, showcasing proficiency with dynamic content manipulation.",
     image: TodoImg,
@@ -60,7 +70,7 @@ const projects: Project[] = [
     demo: "#"
   },
   {
-    id: 5,
+    id: 6,
     title: "Hangman Game",
     description: "A game application where user can interact with computer and can check the vocabulary or increase their vocab.",
     image: HangmanImg,
@@ -69,7 +79,7 @@ const projects: Project[] = [
     demo: "#"
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather App",
     description: "Automatically detects location using the Geolocation API and displays real-time weather data using Axios.",
     image: WeatherImg,
@@ -152,7 +162,7 @@ export default function Projects() {
       
       <div className="mt-16 text-center">
         <RevealOnScroll>
-          <a href="#" className="btn-primary inline-flex items-center">
+          <a href="/#projects" className="btn-primary inline-flex items-center">
             View All Projects
           </a>
         </RevealOnScroll>
