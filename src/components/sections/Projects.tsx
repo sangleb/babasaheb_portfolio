@@ -49,7 +49,7 @@ const projects: Project[] = [
     image: MovieImg,
     tags: ["React", "Axios",  "Router DOM", "FontAwesome", "React Icons", "HTML5", "CSS3", "Tailwind CSS"],
     github: "http://localhost:3000/urls/jozAU6hLl",
-    demo: "#"
+    demo: "https://movie-search-app-six-gamma.vercel.app/"
   },
   {
     id: 4,
